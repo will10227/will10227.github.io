@@ -16,8 +16,7 @@
     
     body
     {
-    background: rgba(0,0,0,0.6); 
-    background-image: url("http://i.imgur.com/3vpA3X1.jpg");
+    background-image: url("http://i.imgur.com/MpTXn27.jpg");
     background-repeat: no-repeat;
     background-size:  100%;
     }
@@ -25,6 +24,7 @@
 	height: 50px;
     }
     #picture2{
+		opacity: .5;
 
     }
 </style>
@@ -35,7 +35,7 @@
 <body>
 <script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
+<script src="https://raw.githubusercontent.com/markdalgleish/stellar.js/master/jquery.stellar.min.js"></script>
 <nav class="navbar navbar-inverse" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -47,23 +47,26 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home">回首頁</span></a>
-      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-user">大小事</span></a>
-      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-align-left">各種蠢事</span></a>
-      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-ok-circle">學會的事</span></a>
-      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-thumbs-up">完成的事</span></a>
-      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-comment">想告訴我的事</span></a>
+        
+      
+      
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-           
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#"><span class="glyphicon glyphicon-user">大小事</span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-align-left">各種蠢事</span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-ok-circle">學會的事</span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-thumbs-up">完成的事</span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-comment">想告訴我的事</span></a></li>
+        
+      </ul>
       
       <img id="picture1" src="http://i.imgur.com/MioYIye.gif">
-
-
-     
     </div><!-- /.navbar-collapse -->
-  <!-- /.container-fluid -->
+  </div><!-- /.container-fluid -->
 </nav>
-
 
 </body>
