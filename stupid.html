@@ -1,23 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap-theme.min.css">
-<title>ChenJay's Website</title>
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ChenJay's Website</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <link rel="stylesheet" href="stylesheets/css/main.css">
+    <link rel="stylesheet" href="stylesheets/css/examples/053-image-hover-description.css">
+
 <style>
- #picture1 {
-		height: 50px;
+    
+    body
+    {
+    background: fixed ;
+    background-image: url("http://i.imgur.com/zZljcK6.jpg");
+    background-repeat: no-repeat;
+    background-size:  100%;
+    background-repeat: repeat;
+     
     }
+    
+    
+    #picture1 {
+    height: 50px;
+    }
+    #picture2 {
+    opacity: .5;
+    }
+    
+  
+  #picture3 {
+    height:100px;
+    }
+    .color1 {
+    border: 1px solid white;
+    padding: 35px;
+    background: rgba(255,255,255,.7);
+    
+    
+      }
+
+    
+
 </style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
 </head>
 <body>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
 <nav class="navbar navbar-inverse" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,11 +86,12 @@
     
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="http://will10227.github.io/stupid.html"><span class="glyphicon glyphicon-user">大小事</span></a></li>
-        <li><a href="http://will10227.github.io/stupid.html"><span class="glyphicon glyphicon-align-left">各種蠢事</span></a></li>
-        <li><a href="http://will10227.github.io/stupid.html"><span class="glyphicon glyphicon-ok-circle">學會的事</span></a></li>
-        <li><a href="http://will10227.github.io/stupid.html"><span class="glyphicon glyphicon-thumbs-up">完成的事</span></a></li>
-        <li><a href="http://will10227.github.io/stupid.html"><span class="glyphicon glyphicon-comment">想告訴我的事</span></a></li>
+        <li><a href="stupid.html"><span class="glyphicon glyphicon-user"></span>大小事</a></li>
+        <li><a href="stupid.html"><span class="glyphicon glyphicon-align-left"></span>各種蠢事</a></li>
+        <li><a href="stupid.html"><span class="glyphicon glyphicon-ok-circle"></span>學會的事</a></li>
+        <li><a href="stupid.html"><span class="glyphicon glyphicon-thumbs-up"></span>完成的事</a></li>
+        <li><a href="stupid.html"><span class="glyphicon glyphicon-comment"></span>想告訴我的事</a></li>
+        
         
       </ul>
       
@@ -50,11 +99,9 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<div class="container">
-<script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-</div>
-<img src="http://i.imgur.com/UjFTnvL.jpg" >
+<img src="http://i.imgur.com/UjFTnvL.jpg" class="rgba(0,0,0,.5)">
+ 
+    
 
 </body>
 </html>
