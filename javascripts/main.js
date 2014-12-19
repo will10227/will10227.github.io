@@ -1,1 +1,4 @@
-console.log('This would be the main JS file.');
+var a=0;
+		jQuery("button.btn.btn-success").click(function(){
+		jQuery("h2").text(a=a+1);
+		});
